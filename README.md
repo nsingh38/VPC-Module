@@ -12,7 +12,7 @@ This terraform project will create VPC and relating components on user's AWS acc
 4. In `System Variables`, select `Path` > `edit` > `new` > Enter the location of the Terraform.exe, (e.g., C:\Apps\Terraform) and then click `OK`
 5. Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands such as `terraform -version`
 
-### For MacOS or Linux
+#### For MacOS or Linux
 1. `echo $PATH`  =  Print a colon-separated list of locations in your PATH
 2. `mv ~/Downloads/terraform /usr/local/bin/`  =  Move the Terraform binary to one of the listed locations. This command assumes that the binary is currently in your downloads folder and that your PATH includes /usr/local/bin, but you can customize it if your locations are different.
 3. `terraform -version`  =  Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands
