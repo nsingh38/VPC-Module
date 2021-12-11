@@ -13,9 +13,10 @@ This terraform project will create VPC and relating components on user's AWS acc
 5. Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands such as `terraform -version`
 
 #### For MacOS or Linux
-1. `echo $PATH`  =  Print a colon-separated list of locations in your PATH
-2. `mv ~/Downloads/terraform /usr/local/bin/`  =  Move the Terraform binary to one of the listed locations. This command assumes that the binary is currently in your downloads folder and that your PATH includes /usr/local/bin, but you can customize it if your locations are different.
-3. `terraform -version`  =  Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands
+1. Download the terraform ZIP file from Terraform site: https://www.terraform.io/downloads.html and extract the terraform binary file.
+2. `echo $PATH`  =  Print a colon-separated list of locations in your PATH
+3. `mv ~/Downloads/terraform /usr/local/bin/`  =  Move the Terraform binary to one of the listed locations. This command assumes that the binary is currently in your downloads folder and that your PATH includes /usr/local/bin, but you can customize it if your locations are different.
+4. `terraform -version`  =  Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands
 
 
 ## Variables this module recieves:
