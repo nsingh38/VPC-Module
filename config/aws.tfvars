@@ -1,0 +1,15 @@
+vpc_cidr = "10.0.0.0/16"
+
+public1_cidr = "10.0.0.0/24"
+public2_cidr = "10.0.1.0/24"
+public3_cidr = "10.0.2.0/24"
+public1_az   = "us-east-1a"
+public2_az   = "us-east-1b"
+public3_az   = "us-east-1c"
+
+private1_cidr = "10.0.3.0/24"
+private2_cidr = "10.0.4.0/24"
+private3_cidr = "10.0.5.0/24"
+private1_az   = "us-east-1a"
+private2_az   = "us-east-1b"
+private3_az   = "us-east-1c"
